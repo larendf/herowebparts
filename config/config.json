@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "kg-herowebpart-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/kgHerowebpart/KgHerowebpartWebPart.js",
+          "manifest": "./src/webparts/kgHerowebpart/KgHerowebpartWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "KgHerowebpartWebPartStrings": "lib/webparts/kgHerowebpart/loc/{locale}.js"
+  }
+}
